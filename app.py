@@ -6,7 +6,7 @@ def main():
     menu = ["Početna", "O Aplikaciji"]
     choice = st.sidebar.selectbox("Menu", menu)
 
-    st.title("App za traženje posla, dev bj Josip Požega")
+    st.title("App za traženje posla, dev by Josip Požega")
 
     if choice =="Početna":
         st.subheader("Početna")
