@@ -29,7 +29,7 @@ def main():
                 st.text=("Traži")
                 submit_search = st.form_submit_button(label='Traži')
          
-        st.success=("Tražili ste {} u {}".format(search_term,location))
+        st.success=('Tražili ste {} u {}'.format(search_term,location))
 
 
     else:
