@@ -17,7 +17,7 @@ def main():
     if choice =="Početna":
         st.subheader("Početna")
         
-        with st.form(key='searchform')
+        with st.form(key='searchform'):
             nav1, nav2, nav3 = st.columns([3,2,1])
             
             with nav1:
