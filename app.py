@@ -22,7 +22,7 @@ def main():
             nav1, nav2, nav3 = st.columns([3,2,1])
             
             with nav1:
-                search_term = st.text_input("Koji posao želiš?")
+                search_term = st.selectbox("Koji posao želiš?")
             with nav2:
                 location = st.text_input("Na kojoj lokaciji?")
             with nav3: 
